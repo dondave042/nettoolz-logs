@@ -11,6 +11,7 @@ import { toast } from "sonner"
 
 const navLinks = [
   { label: "Shop", href: "/shop" },
+  { label: "Social Media", href: "/shop/social-media" },
   { label: "Orders", href: "/orders" },
   { label: "Wallet", href: "/wallet" },
   { label: "Support", href: "/support" },

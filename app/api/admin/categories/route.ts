@@ -5,11 +5,17 @@ import { getAdminSession } from "@/lib/admin-auth"
 const DEFAULT_CATEGORIES = [
   "APPLE ID",
   "ESIM",
-  "FACEBOOK INSTAGRAM",
+  "FACEBOOK",
+  "INSTAGRAM",
+  "TIKTOK",
   "TWITTER",
+  "SNAPCHAT",
+  "YOUTUBE",
+  "TELEGRAM",
+  "LINKEDIN",
+  "WHATSAPP",
   "PROXY",
   "VPN",
-  "WHATSAPP",
 ]
 
 async function ensureDefaultCategories(sql: ReturnType<typeof getDb>) {
